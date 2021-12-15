@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)http://localhost:8082/UO291696-practica4/Ejercicio-03/CalculadoraRPN.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora RPN</title>
+    <link href="./CalculadoraRPN_files/CalculadoraRPN.css" rel="stylesheet">
+    <script src="./CalculadoraRPN_files/CalculadoraRPN.js.descarga"></script>
+</head>
+
+<body>
+    <h1>Calculadora RPN</h1>
+    <main>
+        <form action="http://localhost:8082/UO291696-practica4/Ejercicio-03/CalculadoraRPN.php#" method="post">
+            <p id="display"></p>
+            <p id="actual"></p>
+            <input type="submit" name="exp" value="exp">
+            <input type="submit" name="sin" value="sin">
+            <input type="submit" name="cos" value="cos">
+            <input type="submit" name="tan" value="tan">
+            <input type="submit" name="sqrt" value="√">
+            <input type="submit" name="arcsin" value="arcsin">
+            <input type="submit" name="arccos" value="arccos">
+            <input type="submit" name="arctan" value="arctan">
+            <input type="submit" name="log" value="log">
+            <input type="submit" name="borrarTodo" value="C">
+            <input type="submit" name="desapilar" value="←">
+            <input type="submit" name="division" value="÷">
+            <input type="submit" name="num" value="7">
+            <input type="submit" name="num" value="8">
+            <input type="submit" name="num" value="9">
+            <input type="submit" name="multiplicacion" value="×">
+            <input type="submit" name="num" value="4">
+            <input type="submit" name="num" value="5">
+            <input type="submit" name="num" value="6">
+            <input type="submit" name="resta" value="−">
+            <input type="submit" name="num" value="1">
+            <input type="submit" name="num" value="2">
+            <input type="submit" name="num" value="3">
+            <input type="submit" name="suma" value="+">
+            <input type="submit" name="pi" value="π">
+            <input type="submit" name="num" value="0">
+            <input type="submit" name="num" value=".">
+            <input type="submit" name="Enter" value="Enter">
+        </form>
+        <section>
+            <h2>Aprenda a usar la calculadora RPN</h2>
+            <p><strong>He aquí un ejemplo:</strong></p>
+            <p>Considere la expresión (3+2)/(4+6)=5/10=0.5</p>
+            <p>
+                En notación polaca inversa, debe ingresar número por número en la pila
+                y luego operar. Entonces, ingresará <strong>3</strong> en la pila con
+                <strong>Enter</strong>, luego el número <strong>2</strong> con
+                <strong>Enter</strong> y opera con <strong>suma</strong>. Luego
+                ingresa <strong>4</strong> con <strong>Enter</strong> y
+                <strong>6</strong> con <strong>Enter</strong> a la pila, opera con
+                <strong>suma</strong> y finalmente, estos resultados están apilados,
+                entonces solo queda operarlos con <strong>división</strong>.
+            </p>
+            <p></p>
+            <dl>
+                <dt>Entienda el concepto de pila.</dt>
+                <dd>
+                    Una pila es una lista ordenada de datos que permite almacenar y
+                    recuperar datos, en donde el último elemento añadido es el primero
+                    en salir
+                </dd>
+                <dt>Entienda el concepto de calculadora RPN.</dt>
+                <dd>
+                    Las calculadoras RPN utilizan la notación postfija o notación polaca
+                    inversa (reverse polish notation). Evalúan las expresiones
+                    utilizando una pila y no tienen el botón igual.
+                </dd>
+                <dt>Aprenda a operar</dt>
+                <dd>
+                    El proceso para utilizar RPN es parecido al modo en que aprendió
+                    matemáticas.
+                </dd>
+            </dl>
+            <ul>
+                <li>
+                    Para <strong>ingresar número</strong> a la pila oprima
+                    <strong>Enter</strong>
+                </li>
+                <li>
+                    Para <strong>eliminar</strong> número de la pila oprima
+                    <strong>←</strong>
+                </li>
+                <li>
+                    Para <strong>sumar</strong> los últimos dos números de la pila
+                    oprima <strong>+</strong>
+                </li>
+                <li>
+                    Para <strong>restar</strong> los últimos dos números de la pila
+                    oprima <strong>-</strong>
+                </li>
+                <li>
+                    Para <strong>multiplicar</strong> los últimos dos números de la pila
+                    oprima <strong>*</strong>
+                </li>
+                <li>
+                    Para <strong>dividir</strong> los últimos dos números de la pila
+                    oprima <strong>/</strong>
+                </li>
+                <li>
+                    Para obtener el <strong>seno</strong> o <strong>arcsen</strong> del
+                    último número de la pila oprima <strong>sin</strong> o
+                    <strong>arcsin</strong> respectivamente
+                </li>
+                <li>
+                    Para obtener el <strong>coseno</strong> o
+                    <strong>arccos</strong> del último número de la pila oprima
+                    <strong>cos</strong> o <strong>arccos</strong> respectivamente
+                </li>
+                <li>
+                    Para obtener la <strong>tangente</strong> o
+                    <strong>arctan</strong> del último número de la pila oprima
+                    <strong>tan</strong> o <strong>arctan</strong> respectivamente
+                </li>
+                <li>
+                    Para obtener <strong>exponencial</strong> del último número de la
+                    pila oprima <strong>exp</strong>
+                </li>
+                <li>
+                    Para obtener el <strong>logaritmo</strong> del último número de la
+                    pila oprima <strong>log</strong>
+                </li>
+                <li>
+                    Para obtener la <strong>raíz cuadrada</strong> del último número de
+                    la pila oprima <strong>sqrt</strong>
+                </li>
+                <li>
+                    Para apilar el número <strong>π</strong> oprima
+                    <strong>π</strong>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+
+</body></html>
