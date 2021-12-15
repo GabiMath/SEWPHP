@@ -13,11 +13,13 @@ h1, h2, h3 {
     text-align: center;
   }
 
-pre{
-  overflow: auto;
+form{
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
-button{
+input[type="submit"]{
     background-color: #061433;
     color: white;
     border-radius: 0.8em;
@@ -25,11 +27,6 @@ button{
     padding: 0.5em 1em;
   }
 
-p[id="botones"]{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
 
 a {
     color: #ddddddb4;
