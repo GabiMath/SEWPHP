@@ -12,19 +12,19 @@
         <h2>Resultado interpretado</h2>  
         <p>Formulario para insertar datos en la tabla "pruebasUsabilidad" que pertenece a la base de datos "prueba"</p>
         <form method="post" action="http://localhost:8082/UO291696-practica4/Ejercicio-06/tarea7/Ejercicio6.php">
-                <p>DNI:<input type="text" name="dni"> </p>
-                <p>Nombre: <input type="text" name="nombre"> </p>
-                <p>Apellidos: <input type="text" name="apellidos"></p>
-                <p>Email: <input type="text" name="email"></p>
-                <p>Telefono: <input type="number" name="telefono"></p>
-                <p>Edad: <input type="number" name="edad"></p>
-                <p>Sexo: <input type="text" name="sexo"></p>
-                <p>Nivel de pericia informática: <input type="number" name="nivelInformatica"></p>
-                <p>Tiempo de ejecución tareas: <input type="number" name="tiempoTarea"></p>
-                <p>Finalizo correctamente la tarea: <input type="number" name="finalizoTarea"></p>
-                <p>Comentarios: <input type="text" name="comentariosProblemas"></p>
-                <p>Propuestas de mejora: <input type="text" name="propuestasMejora"></p>
-                <p>Valoración: <input type="number" name="valoracion"></p>
+                <label for="dni">DNI: </label><input id="dni" type="text" name="dni"> 
+                <label for="nom">Nombre: </label><input id="nom" type="text" name="nombre"> 
+                <label for="ape">Apellidos: </label><input id="ape" type="text" name="apellidos">
+                <label for="email">Email: </label><input id="email" type="text" name="email">
+                <label for="tel">Telefono: </label><input id="tel" type="number" name="telefono">
+                <label for="edad">Edad: </label><input id="edad" type="number" name="edad">
+                <label for="sexo">Sexo: </label><input id="sexo" type="text" name="sexo">
+                <label for="ni">Nivel de pericia informática: </label><input id="ni" type="number" name="nivelInformatica">
+                <label for="tet">Tiempo de ejecución tareas: </label><input id="tet" type="number" name="tiempoTarea">
+                <label for="fct">Finalizo correctamente la tarea: </label><input id="fct" type="number" name="finalizoTarea">
+                <label for="cm">Comentarios: </label><input id="cm" type="text" name="comentariosProblemas">
+                <label for="pm">Propuestas de mejora: </label><input id="pm" type="text" name="propuestasMejora">
+                <label for="val">Valoración: </label><input id="val" type="number" name="valoracion">
                 <input name="InsertarDatos" type="submit" value="Insertar Datos">
                 <input type="submit" name="volver" value="Volver">
         </form>
