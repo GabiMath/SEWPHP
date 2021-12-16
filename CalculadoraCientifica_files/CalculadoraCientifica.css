@@ -31,6 +31,11 @@ section{
   max-width: 35em;
 }
 
+label{
+  height: 0;
+  width:0;
+}
+
 input[type="submit"] {
   cursor: pointer;
   margin: 0.2em;
